@@ -1,0 +1,111 @@
+body {
+    padding: 0;
+    margin: 0;
+  }
+  
+  #map,
+  body,
+  html {
+    height: 100%;
+  }
+  .leaflet-popup-content {
+    text-align: center;
+  }
+  
+  /* CSS from the Leaflet-Choropleth documentation */
+  .legend {
+    padding: 6px 8px;
+    font: 12px Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: #555;
+    background: #fff;
+    background: rgba(255, 255, 255, 0.8);
+    border-radius: 5px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+  }
+  
+  .legend ul {
+    padding: 0;
+    margin: 0;
+    clear: both;
+    list-style-type: none;
+  }
+  
+  .legend li {
+    display: inline-block;
+    width: 30px;
+    height: 22px;
+  }
+  
+  .legend .min {
+    float: left;
+    padding-bottom: 5px;
+  }
+  
+  .legend .max {
+    float: right;
+  }
+  
+  h1 {
+    text-align: center;
+  }
+
+  .navbar a {
+    color: #fff !important;
+  }
+  
+  .navbar {
+    border-bottom: 3px solid orangered;
+  }
+  
+  a:hover {
+    color: orangered !important;
+  }
+  
+  code {
+    display: block;
+    white-space: pre-wrap;
+    font-size: 18px;
+  }
+  
+  /* Sticky footer using flexbox */
+  /* https://philipwalton.github.io/solved-by-flexbox/demos/sticky-footer/ */
+  body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+  }
+  
+  .container {
+    flex: 1;
+  }
+  
+  .orange-btn {
+    background-color: rgb(144, 239, 240);
+    border: 1px solid black;
+  }
+  
+  .donate-btn:hover {
+    background-color: black;
+  }
+  
+  .home-card {
+    border: 1px solid black;
+  }
+  
+  .card-footer {
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    border-top: 3px solid rgb(144, 239, 240);
+  }
+  
+  /* Menu Button */
+  .github-side-icon {
+    position: absolute;
+    z-index: 3;
+    top: 100px;
+    right: 35px;
+    cursor: pointer;
+  }
